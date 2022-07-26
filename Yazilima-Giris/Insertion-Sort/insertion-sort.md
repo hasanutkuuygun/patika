@@ -21,15 +21,15 @@ Böylelikle (n-1) kadar işlem yapılmış olduğumuzda sıralama işlemimiz tam
 **2. Big-O gösterimini yazınız.**
 
 Insertion Sort sıralama yöntemini anlamak için dizide n kadar sayı bulunduğu göz önüne alalım. Eğer dizideki tüm elemanlar sıralı bir şekilde ise (best case) baştan başlayarak tüm sayıları kontrol ettiğimizde n kadar sayıyı kontrol etmiş ve işlemi tamamlamış oluruz. En iyi durumu incelediğimiz bu örnekte insertion sort için Big-O gösterimi:
-- Best Case &rarr; o(n)
+- Best Case &rarr; O(n)
 
 Dizideki elemanların sıralı olmadığı diğer durumlar için ise ilk seferde n kadar sayıyı kontrol edip en küçüğünü bulduktan sonra, ikinci sefer ilk sayı hariç yani (n-1) kadar sayıyı kontrol etmemiz gerekmektedir. Bu işlemleri son sayıya kadar tekrarladığımızda aşağıdaki ifade kadar işlem yapmamız gerekmektedir:
 
 n + (n-1) + (n-2) + ... + 1 = [n*(n+1)/2] = (n<sup>2</sup>+n)/2 
 
 Big-O gösteriminde domine fonksiyon ele alındığı için average ve worst case için Big-O gösterimi:
-- Average Case &rarr; o(n<sup>2</sup>)
-- Worst Case &rarr; o(n<sup>2</sup>)
+- Average Case &rarr; O(n<sup>2</sup>)
+- Worst Case &rarr; O(n<sup>2</sup>)
 
 **3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.**
 
