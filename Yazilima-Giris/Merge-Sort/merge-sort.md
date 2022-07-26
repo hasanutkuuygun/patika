@@ -23,4 +23,4 @@ Merge Sort yöntemine göre dizi her adımda ikiye bölünerek tek bir eleman ka
                                                  [8,11,12,16,21,22]
  
 - Big-O gösterimini yazınız.
-Big-O &rarr; O(nlogn)
+Big-O &rarr; O(nlogn) olarak gösterilir.
